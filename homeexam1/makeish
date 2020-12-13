@@ -1,0 +1,48 @@
+#!/bin/bash
+
+case $1 in
+    test)
+        ec src/Util.m src/Hash.m test/Test.m test/HashTest.m test/TestRunner.m
+        emx src/Util.x src/Hash.x test/Test.x test/HashTest.x test/TestRunner.x
+        rm src/*.x test/*.x
+        ;;
+    build)
+        ec src/Util.m src/Hash.m src/File.m src/PeerType.m src/Server.m src/Peer.m src/Main.m
+        ;;
+    start)
+        shift
+        emeraldOptions=''
+        while getopts ":R:U" opt; do
+            case $opt in
+                U)
+                    emeraldOptions="$emeraldOptions -U"
+                    ;;
+                R)
+                    emeraldOptions="$emeraldOptions -R$OPTARG"
+                    ;;
+                \?)
+                    echo "Invalid option: -$OPTARG" >&2
+                    exit 1
+                    ;;
+                :)
+                    case $OPTARG in
+                        R)
+                            emeraldOptions="$emeraldOptions -R"
+                            ;;
+                        *)
+                            echo "Option -$OPTARG requires an argument"
+                            exit 1
+                            ;;
+                    esac
+                    ;;
+            esac
+        done
+        emx $emeraldOptions src/Util.x src/Hash.x src/File.x src/PeerType.x src/Server.x src/Peer.x src/Main.x
+        ;;
+    clean)
+        rm src/*.x
+        ;;
+    *)
+        echo Unrecognized command.
+        ;;
+esac

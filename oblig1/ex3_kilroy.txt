@@ -1,0 +1,39 @@
+IFI-machines output:
+    vatn:
+        Starting on vatn.ifi.uio.no
+        3 nodes active.
+
+    jordin 1:
+        Kilroy was here
+        Home is unavailable
+        Couldn't make it home
+        Total time: 3:007343
+        Time per jump: 1.503671
+
+    jordin 2:
+        Kilroy was here
+
+PlanetLab machines output:
+    ple1.cesnet.cz:
+        diku_IN5570@ple1.cesnet.cz $ emx32 -R -U
+        Emerald listening on port 18165 46f5, epoch 32489 7ee9
+        Kilroy was here
+
+    cse-white.cse.chalmers.se:
+        diku_IN5570@cse-white.cse.chalmers.se $ emx32 -Rple1.cesnet.cz:18165 -U
+        Emerald listening on port 16100 3ee4, epoch 17885 45dd
+        Kilroy was here
+
+    planetlab1.xeno.cl.cam.ac.uk:
+        diku_IN5570@planetlab1.xeno.cl.cam.ac.uk $ emx32 -Rcse-white.cse.chalmers.se:16100 -U
+        Emerald listening on port 16114 3ef2, epoch 13513 34c9
+        Kilroy was here
+
+    kulcha.mimuw.edu.pl:
+        diku_IN5570@kulcha.mimuw.edu.pl $ emx32 -Rplanetlab1.xeno.cl.cam.ac.uk:16114 -U ex3_kilroy.x
+        Emerald listening on port 16130 3f02, epoch 60266 eb6a
+        Starting on kulcha.mimuw.edu.pl
+        4 nodes active.
+        Back home
+        Total time: 0:160021
+        Time per jump: 0 seconds and 53340 microseconds

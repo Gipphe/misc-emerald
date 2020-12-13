@@ -1,0 +1,72 @@
+#!/bin/bash
+
+files='src/Replication.m'
+exFiles='src/Replication.x'
+
+case $1 in
+    build)
+        case $2 in
+            timeserver)
+                files="$files src/TimeServer.m"
+                ;;
+            nameserver)
+                files="$files src/NameServer.m"
+                ;;
+            *)
+                echo Unrecognized build target.
+                exit 1
+                ;;
+        esac
+        ec $files
+        ;;
+    start)
+        ex=''
+        case $2 in
+            timeserver)
+                ex='src/TimeServer.x'
+                ;;
+            nameserver)
+                ex='src/NameServer.x'
+                ;;
+            *)
+                echo Unrecognized target to start.
+                exit 1
+                ;;
+        esac
+
+        shift 2
+        emeraldOptions=''
+        while getopts ":R:U" opt; do
+            case $opt in
+                U)
+                    emeraldOptions="$emeraldOptions -U"
+                    ;;
+                R)
+                    emeraldOptions="$emeraldOptions -R$OPTARG"
+                    ;;
+                \?)
+                    echo "Invalid option: -$OPTARG" >&2
+                    exit 1
+                    ;;
+                :)
+                    case $OPTARG in
+                        R)
+                            emeraldOptions="$emeraldOptions -R"
+                            ;;
+                        *)
+                            echo "Option -$OPTARG requires an argument"
+                            exit 1
+                            ;;
+                    esac
+                    ;;
+            esac
+        done
+        emx $emeraldOptions $exFiles $ex
+        ;;
+    clean)
+        rm src/*.x
+        ;;
+    *)
+        echo Unrecognized command.
+        ;;
+esac

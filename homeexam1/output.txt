@@ -1,0 +1,147 @@
+Main: there are 6 active nodes available
+Main: Started a HasFiles
+Main: Started a WantsFiles
+Main: Started a LosesFiles
+Main: Started a HasFiles
+Main: Started a WantsFiles
+HasFiles        (1586805079:286986): acquired Foobar
+HasFiles        (1586805079:287119): acquired One of the oldest memes
+LosesFiles      (1586805079:287086): dropped file: Generic file
+WantsFiles      (1586805079:287031): downloaded Service announcement from 1586805079:287086
+WantsFiles      (1586805079:287171): downloaded Some other file from 1586805079:287086
+HasFiles        (1586805079:286986): acquired Skyrim
+HasFiles        (1586805079:287119): acquired Some other file
+LosesFiles      (1586805079:287086): dropped file: Skyrim
+HasFiles        (1586805079:286986): acquired The City in Germany that does not exist
+HasFiles        (1586805079:287119): acquired Skyrim
+WantsFiles      (1586805079:287031): downloaded One of the oldest memes from 1586805079:287086
+WantsFiles      (1586805079:287171): downloaded One of the oldest memes from 1586805079:287086
+LosesFiles      (1586805079:287086): dropped file: Eiffel 65 - I'm Blue (Da Ba Dee)
+HasFiles        (1586805079:286986): acquired Skyrim
+HasFiles        (1586805079:287119): acquired Service announcement
+LosesFiles      (1586805079:287086): dropped file: What does the fox say?
+WantsFiles      (1586805079:287031): downloaded One of the oldest memes from 1586805079:287086
+WantsFiles      (1586805079:287171): downloaded Service announcement from 1586805079:287086
+HasFiles        (1586805079:286986): acquired Foobar
+HasFiles        (1586805079:287119): acquired Skyrim
+LosesFiles      (1586805079:287086): dropped file: One of the oldest memes
+HasFiles        (1586805079:286986): acquired Eiffel 65 - I'm Blue (Da Ba Dee)
+HasFiles        (1586805079:287119): acquired Service announcement
+WantsFiles      (1586805079:287031): downloaded The City in Germany that does not exist from 1586805079:286986
+WantsFiles      (1586805079:287171): downloaded Some other file from 1586805079:287119
+LosesFiles      (1586805079:287086): dropped file: Foobar
+HasFiles        (1586805079:286986): acquired One of the oldest memes
+HasFiles        (1586805079:287119): acquired Generic file
+LosesFiles      (1586805079:287086): dropped file: The City in Germany that does not exist
+WantsFiles      (1586805079:287031): downloaded Eiffel 65 - I'm Blue (Da Ba Dee) from 1586805079:286986
+WantsFiles      (1586805079:287171): downloaded Some other file from 1586805079:287119
+HasFiles        (1586805079:286986): acquired One of the oldest memes
+HasFiles        (1586805079:287119): acquired Foobar
+LosesFiles      (1586805079:287086): dropped file: Some other file
+HasFiles        (1586805079:286986): acquired Foobar
+HasFiles        (1586805079:287119): acquired Service announcement
+WantsFiles      (1586805079:287031): downloaded Foobar from 1586805079:286986
+WantsFiles      (1586805079:287171): downloaded Generic file from 1586805079:287119
+LosesFiles      (1586805079:287086): dropped file: Service announcement
+HasFiles        (1586805079:286986): halting...
+HasFiles        (1586805079:287119): halting...
+LosesFiles      (1586805079:287086): halting...
+WantsFiles      (1586805079:287031): halting...
+WantsFiles      (1586805079:287171): halting...
+Main: all workers halted
+
+Main: Server peer records:
+
+Peer record 1586805079:286986:
+        registered files:
+                File name: Foobar, File hash: -1975772843
+                File name: Skyrim, File hash: -428251465
+                File name: The City in Germany that does not exist, File hash: 84092700
+                File name: Eiffel 65 - I'm Blue (Da Ba Dee), File hash: 1996676468
+                File name: One of the oldest memes, File hash: -976337808
+        Peer state: Peer 1586805079:286986:
+        own files:
+                File 0: File name: Foobar, File hash: -1975772843, File contents length: 7
+                File 1: File name: Skyrim, File hash: -428251465, File contents length: 37
+                File 2: File name: The City in Germany that does not exist, File hash: 84092700, File contents length: 51
+                File 3: File name: Skyrim, File hash: -428251465, File contents length: 37
+                File 4: File name: Foobar, File hash: -1975772843, File contents length: 7
+                File 5: File name: Eiffel 65 - I'm Blue (Da Ba Dee), File hash: 1996676468, File contents length: 29
+                File 6: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 7: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 8: File name: Foobar, File hash: -1975772843, File contents length: 7
+        downloaded files: no files
+
+Peer record 1586805079:287031:
+        registered files:
+                File name: Service announcement, File hash: 1057443404
+                File name: One of the oldest memes, File hash: -976337808
+                File name: The City in Germany that does not exist, File hash: 84092700
+                File name: Eiffel 65 - I'm Blue (Da Ba Dee), File hash: 1996676468
+                File name: Foobar, File hash: -1975772843
+        Peer state: Peer 1586805079:287031:
+        own files:
+                File 0: File name: Service announcement, File hash: 1057443404, File contents length: 41
+                File 1: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 2: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 3: File name: The City in Germany that does not exist, File hash: 84092700, File contents length: 51
+                File 4: File name: Eiffel 65 - I'm Blue (Da Ba Dee), File hash: 1996676468, File contents length: 29
+                File 5: File name: Foobar, File hash: -1975772843, File contents length: 7
+        downloaded files:
+                File 0: File name: Service announcement, File hash: 1057443404, File contents length: 41
+                File 1: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 2: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 3: File name: The City in Germany that does not exist, File hash: 84092700, File contents length: 51
+                File 4: File name: Eiffel 65 - I'm Blue (Da Ba Dee), File hash: 1996676468, File contents length: 29
+                File 5: File name: Foobar, File hash: -1975772843, File contents length: 7
+
+Peer record 1586805079:287086:
+        registered files:
+                File name: The Djb hashing algorithm, File hash: -943205174
+        Peer state: Peer 1586805079:287086:
+        own files:
+                File 0: File name: The Djb hashing algorithm, File hash: -943205174, File contents length: 57
+        downloaded files: no files
+
+Peer record 1586805079:287119:
+        registered files:
+                File name: One of the oldest memes, File hash: -976337808
+                File name: Some other file, File hash: 348390473
+                File name: Skyrim, File hash: -428251465
+                File name: Service announcement, File hash: 1057443404
+                File name: Generic file, File hash: 480828040
+                File name: Foobar, File hash: -1975772843
+        Peer state: Peer 1586805079:287119:
+        own files:
+                File 0: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 1: File name: Some other file, File hash: 348390473, File contents length: 24
+                File 2: File name: Skyrim, File hash: -428251465, File contents length: 37
+                File 3: File name: Service announcement, File hash: 1057443404, File contents length: 41
+                File 4: File name: Skyrim, File hash: -428251465, File contents length: 37
+                File 5: File name: Service announcement, File hash: 1057443404, File contents length: 41
+                File 6: File name: Generic file, File hash: 480828040, File contents length: 15
+                File 7: File name: Foobar, File hash: -1975772843, File contents length: 7
+                File 8: File name: Service announcement, File hash: 1057443404, File contents length: 41
+        downloaded files: no files
+
+Peer record 1586805079:287171:
+        registered files:
+                File name: Some other file, File hash: 348390473
+                File name: One of the oldest memes, File hash: -976337808
+                File name: Service announcement, File hash: 1057443404
+                File name: Generic file, File hash: 480828040
+        Peer state: Peer 1586805079:287171:
+        own files:
+                File 0: File name: Some other file, File hash: 348390473, File contents length: 24
+                File 1: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 2: File name: Service announcement, File hash: 1057443404, File contents length: 41
+                File 3: File name: Some other file, File hash: 348390473, File contents length: 24
+                File 4: File name: Some other file, File hash: 348390473, File contents length: 24
+                File 5: File name: Generic file, File hash: 480828040, File contents length: 15
+        downloaded files:
+                File 0: File name: Some other file, File hash: 348390473, File contents length: 24
+                File 1: File name: One of the oldest memes, File hash: -976337808, File contents length: 15
+                File 2: File name: Service announcement, File hash: 1057443404, File contents length: 41
+                File 3: File name: Some other file, File hash: 348390473, File contents length: 24
+                File 4: File name: Some other file, File hash: 348390473, File contents length: 24
+                File 5: File name: Generic file, File hash: 480828040, File contents length: 15

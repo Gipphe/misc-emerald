@@ -1,0 +1,10 @@
+4 nodes active.
+Starting on ple1.cesnet.cz
+Moved to planetlab1.xeno.cl.cam.ac.uk
+Moved to cse-white.cse.chalmers.se
+Moved to kulcha.mimuw.edu.pl
+Back home
+On node ple1.cesnet.cz (1056268495), the time was Fri Mar  6 18:57:33 2020
+On node planetlab1.xeno.cl.cam.ac.uk (1324529193), the time was Fri Mar  6 18:57:33 2020
+On node cse-white.cse.chalmers.se (1256482776), the time was Fri Mar  6 18:57:33 2020
+On node kulcha.mimuw.edu.pl (1057158225), the time was Fri Mar  6 18:57:33 2020

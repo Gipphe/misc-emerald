@@ -1,0 +1,55 @@
+Moving consumer to planetlab1.xeno.cl.cam.ac.uk
+
+Called by visit with 0 calls
+Direct called with 0 calls
+Called by visit with list of size 50 for 1 calls
+Direct called with list of size 50 for 1 calls
+Called by visit with list of size 50 for 2 calls
+Direct called with list of size 50 for 2 calls
+Size 50 callByVisit time: 0:110501
+Size 50 directCall time: 0:137487
+For the list size 50, the break-point is 2 calls
+
+Called by visit with 0 calls
+Direct called with 0 calls
+Called by visit with list of size 100 for 1 calls
+Direct called with list of size 100 for 1 calls
+Called by visit with list of size 100 for 2 calls
+Direct called with list of size 100 for 2 calls
+Size 100 callByVisit time: 0:110641
+Size 100 directCall time: 0:137475
+For the list size 100, the break-point is 2 calls
+
+Called by visit with 0 calls
+Direct called with 0 calls
+Called by visit with list of size 500 for 1 calls
+Direct called with list of size 500 for 1 calls
+Called by visit with list of size 500 for 2 calls
+Direct called with list of size 500 for 2 calls
+Size 500 callByVisit time: 0:113395
+Size 500 directCall time: 0:139012
+For the list size 500, the break-point is 2 calls
+
+Called by visit with 0 calls
+Direct called with 0 calls
+Called by visit with list of size 1000 for 1 calls
+Direct called with list of size 1000 for 1 calls
+Called by visit with list of size 1000 for 2 calls
+Direct called with list of size 1000 for 2 calls
+Size 1000 callByVisit time: 0:116957
+Size 1000 directCall time: 0:137349
+For the list size 1000, the break-point is 2 calls
+
+Called by visit with 0 calls
+Direct called with 0 calls
+Called by visit with list of size 10000 for 1 calls
+Direct called with list of size 10000 for 1 calls
+Called by visit with list of size 10000 for 2 calls
+Direct called with list of size 10000 for 2 calls
+Called by visit with list of size 10000 for 3 calls
+Direct called with list of size 10000 for 3 calls
+Called by visit with list of size 10000 for 4 calls
+Direct called with list of size 10000 for 4 calls
+Size 10000 callByVisit time: 0:178687
+Size 10000 directCall time: 0:192000
+For the list size 10000, the break-point is 4 calls

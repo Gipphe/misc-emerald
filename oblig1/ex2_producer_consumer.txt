@@ -1,0 +1,88 @@
+Producer: Wrote 1
+Producer: Wrote 2
+Producer: Waiting 100ms...
+Consumer: Read 1
+Consumer: Read 2
+Consumer: Waiting to read
+Producer: Wrote 3
+Consumer: Read 3
+Consumer: Waiting to read
+Producer: Wrote 4
+Consumer: Read 4
+Consumer: Waiting 100ms...
+Producer: Wrote 5
+Producer: Waiting 100ms...
+Consumer: Read 5
+Consumer: Waiting to read
+Producer: Wrote 6
+Consumer: Read 6
+Consumer: Waiting to read
+Producer: Wrote 7
+Consumer: Read 7
+Producer: Wrote 8
+Producer: Waiting 100ms...
+Consumer: Read 8
+Consumer: Waiting to read
+Producer: Wrote 9
+Consumer: Read 9
+Consumer: Waiting 100ms...
+Producer: Wrote 10
+Producer: Wrote 11
+Producer: Waiting 100ms...
+Consumer: Read 10
+Consumer: Read 11
+Consumer: Waiting to read
+Producer: Wrote 12
+Consumer: Read 12
+Producer: Wrote 13
+Consumer: Read 13
+Producer: Wrote 14
+Producer: Waiting 100ms...
+Consumer: Read 14
+Consumer: Waiting 100ms...
+Producer: Wrote 15
+Producer: Wrote 16
+Producer: Waiting to write
+Consumer: Read 15
+Producer: Wrote 17
+Producer: Waiting 100ms...
+Consumer: Read 16
+Consumer: Read 17
+Consumer: Waiting to read
+Producer: Wrote 18
+Consumer: Read 18
+Producer: Wrote 19
+Consumer: Read 19
+Consumer: Waiting 100ms...
+Producer: Wrote 20
+Producer: Waiting 100ms...
+Consumer: Read 20
+Consumer: Waiting to read
+Producer: Wrote 21
+Consumer: Read 21
+Producer: Wrote 22
+Consumer: Read 22
+Producer: Wrote 23
+Producer: Waiting 100ms...
+Consumer: Read 23
+Consumer: Waiting to read
+Producer: Wrote 24
+Consumer: Read 24
+Consumer: Waiting 100ms...
+Producer: Wrote 25
+Producer: Wrote 26
+Producer: Waiting 100ms...
+Consumer: Read 25
+Consumer: Read 26
+Consumer: Waiting to read
+Producer: Wrote 27
+Consumer: Read 27
+Producer: Wrote 28
+Consumer: Read 28
+Producer: Wrote 29
+Producer: Waiting 100ms...
+Consumer: Read 29
+Consumer: Waiting 100ms...
+Producer: Wrote 30
+Consumer: Read 30
+Consumer: Waiting to read

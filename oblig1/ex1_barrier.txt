@@ -1,0 +1,23 @@
+0: Waiting
+1: Waiting
+2: Waiting
+3: Waiting
+5: Opening
+0: Entering
+5: Entering
+0: Leaving
+5: Leaving
+0: Waiting
+5: Opening
+1: Entering
+5: Entering
+1: Leaving
+5: Leaving
+1: Waiting
+5: Opening
+2: Entering
+5: Entering
+2: Leaving
+5: Leaving
+5: Finished walking the barrier
+2: Waiting

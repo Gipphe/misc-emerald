@@ -1,0 +1,48 @@
+Local:
+Installed time agent on 3d87cdce12a8
+Installed time agent on c35e8e5d113e
+Installed time agent on 7341ff230a78
+Installed time agent on 57f7b0a36c18
+
+The clock is Sun Mar  8 01:58:18 2020 (1583632698:715329 as minute:microseconds)
+The time agent at 3d87cdce12a8 (1120662115), where the date and time is Sun Mar  8 01:58:18 2020 (1583632698:713228 as seconds:microseconds), is 0:002102 off the calculated time
+The time agent at c35e8e5d113e (1120614632), where the date and time is Sun Mar  8 01:58:18 2020 (1583632698:713739 as seconds:microseconds), is 0:001692 off the calculated time
+The time agent at 7341ff230a78 (1120629068), where the date and time is Sun Mar  8 01:58:18 2020 (1583632698:714530 as seconds:microseconds), is 0:000870 off the calculated time
+The time agent at 57f7b0a36c18 (1120612685), where the date and time is Sun Mar  8 01:58:18 2020 (1583632698:715176 as seconds:microseconds), is 0:000261 off the calculated time
+
+The clock is Sun Mar  8 01:59:18 2020 (1583632758:717789 as minute:microseconds)
+The time agent at 3d87cdce12a8 (1120662115), where the date and time is Sun Mar  8 01:59:18 2020 (1583632758:715850 as seconds:microseconds), is 0:001940 off the calculated time
+The time agent at c35e8e5d113e (1120614632), where the date and time is Sun Mar  8 01:59:18 2020 (1583632758:716289 as seconds:microseconds), is 0:001608 off the calculated time
+The time agent at 7341ff230a78 (1120629068), where the date and time is Sun Mar  8 01:59:18 2020 (1583632758:717008 as seconds:microseconds), is 0:000855 off the calculated time
+The time agent at 57f7b0a36c18 (1120612685), where the date and time is Sun Mar  8 01:59:18 2020 (1583632758:717619 as seconds:microseconds), is 0:000261 off the calculated time
+
+The clock is Sun Mar  8 02:00:18 2020 (1583632818:720186 as minute:microseconds)
+The time agent at 3d87cdce12a8 (1120662115), where the date and time is Sun Mar  8 02:00:18 2020 (1583632818:718482 as seconds:microseconds), is 0:001710 off the calculated time
+The time agent at c35e8e5d113e (1120614632), where the date and time is Sun Mar  8 02:00:18 2020 (1583632818:718817 as seconds:microseconds), is 0:001446 off the calculated time
+The time agent at 7341ff230a78 (1120629068), where the date and time is Sun Mar  8 02:00:18 2020 (1583632818:719502 as seconds:microseconds), is 0:000777 off the calculated time
+The time agent at 57f7b0a36c18 (1120612685), where the date and time is Sun Mar  8 02:00:18 2020 (1583632818:720058 as seconds:microseconds), is 0:000198 off the calculated time
+
+
+Planetlab:
+Installed time agent on ple1.cesnet.cz
+Installed time agent on planetlab1.xeno.cl.cam.ac.uk
+Installed time agent on kulcha.mimuw.edu.pl
+Installed time agent on cse-white.cse.chalmers.se
+
+The clock is Sun Mar  8 01:33:15 2020 (1583631195:937928 as minute:microseconds)
+The time agent at ple1.cesnet.cz (1123408265), where the date and time is Sun Mar  8 01:33:15 2020 (1583631195:638269 as seconds:microseconds), is 0:299661 off the calculated time
+The time agent at planetlab1.xeno.cl.cam.ac.uk (1123169489), where the date and time is Sun Mar  8 01:33:15 2020 (1583631195:693578 as seconds:microseconds), is 0:258211 off the calculated time
+The time agent at kulcha.mimuw.edu.pl (1057131310), where the date and time is Sun Mar  8 01:33:15 2020 (1583631195:815286 as seconds:microseconds), is 0:138892 off the calculated time
+The time agent at cse-white.cse.chalmers.se (1055150808), where the date and time is Sun Mar  8 01:33:15 2020 (1583631195:927825 as seconds:microseconds), is 0:022447 off the calculated time
+
+The clock is Sun Mar  8 01:34:16 2020 (1583631256:325586 as minute:microseconds)
+The time agent at ple1.cesnet.cz (1123408265), where the date and time is Sun Mar  8 01:34:15 2020 (1583631255:976877 as seconds:microseconds), is 0:348711 off the calculated time
+The time agent at planetlab1.xeno.cl.cam.ac.uk (1123169489), where the date and time is Sun Mar  8 01:34:16 2020 (1583631256:076739 as seconds:microseconds), is 0:281794 off the calculated time
+The time agent at kulcha.mimuw.edu.pl (1057131310), where the date and time is Sun Mar  8 01:34:16 2020 (1583631256:191859 as seconds:microseconds), is 0:149970 off the calculated time
+The time agent at cse-white.cse.chalmers.se (1055150808), where the date and time is Sun Mar  8 01:34:16 2020 (1583631256:304312 as seconds:microseconds), is 0:033621 off the calculated time
+
+The clock is Sun Mar  8 01:35:16 2020 (1583631316:653529 as minute:microseconds)
+The time agent at ple1.cesnet.cz (1123408265), where the date and time is Sun Mar  8 01:35:16 2020 (1583631316:353360 as seconds:microseconds), is 0:300171 off the calculated time
+The time agent at planetlab1.xeno.cl.cam.ac.uk (1123169489), where the date and time is Sun Mar  8 01:35:16 2020 (1583631316:408386 as seconds:microseconds), is 0:258839 off the calculated time
+The time agent at kulcha.mimuw.edu.pl (1057131310), where the date and time is Sun Mar  8 01:35:16 2020 (1583631316:530904 as seconds:microseconds), is 0:138845 off the calculated time
+The time agent at cse-white.cse.chalmers.se (1055150808), where the date and time is Sun Mar  8 01:35:16 2020 (1583631316:643479 as seconds:microseconds), is 0:022420 off the calculated time
